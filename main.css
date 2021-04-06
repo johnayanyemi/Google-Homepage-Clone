@@ -179,7 +179,8 @@ footer {
 
 footer a, footer p {
   color: gray;
-  font-size: .9em;
+  font-size: .8em;
+  text-align: center;
 }
 
 footer li {
@@ -242,6 +243,10 @@ input[type="search"]::-webkit-search-results-decoration {
     width: 3%;
     left: 1em;
   }
+  footer a, footer p {
+    font-size: .9em;
+    text-align: left;
+  }
   footer .footer-bottom-list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -279,6 +284,13 @@ input[type="search"]::-webkit-search-results-decoration {
   main .search .fa-search {
     width: 4%;
     left: 1em;
+  }
+}
+
+@media only screen and (max-height: 545px) {
+  footer {
+    position: unset;
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */

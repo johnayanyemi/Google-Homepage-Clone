@@ -152,7 +152,8 @@ footer {
 
   a, p {
     color: gray;
-    font-size: .9em;
+    font-size: .8em;
+    text-align: center;
   }
 
   li {
@@ -222,6 +223,11 @@ input[type="search"]::-webkit-search-results-decoration {
 
   footer {
 
+    a, p{
+      font-size: .9em;
+      text-align: left;
+    }
+
     .footer-bottom-list{
       flex-direction: row;
       justify-content: space-between;
@@ -276,4 +282,11 @@ input[type="search"]::-webkit-search-results-decoration {
       }
     }
   } 
+}
+
+@media only screen and (max-height: 545px){
+  footer {
+    position: unset;
+    margin-top: 50px;
+  }
 }
