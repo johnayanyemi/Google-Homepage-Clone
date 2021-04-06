@@ -131,7 +131,7 @@ main .search input:hover {
 }
 
 main .search .fa-search {
-  width: 4%;
+  min-width: 4%;
   position: absolute;
   top: 50%;
   left: 2em;
@@ -159,6 +159,9 @@ main .input-btns a:hover {
 }
 
 main .inline-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 3em;
   font-size: .8em;
 }
@@ -177,10 +180,19 @@ footer {
   padding: 1em 2em;
 }
 
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: left;
+}
+
 footer a, footer p {
   color: gray;
   font-size: .8em;
-  text-align: center;
 }
 
 footer li {
@@ -243,6 +255,9 @@ input[type="search"]::-webkit-search-results-decoration {
     width: 3%;
     left: 1em;
   }
+  main.inline-list{
+    display: unset;
+  }
   footer a, footer p {
     font-size: .9em;
     text-align: left;
@@ -293,4 +308,3 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-top: 50px;
   }
 }
-/*# sourceMappingURL=main.css.map */
