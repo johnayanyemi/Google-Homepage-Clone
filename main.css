@@ -6,6 +6,8 @@
 }
 
 body {
+  height: 100vh;
+  position: relative;
   background: white;
   font-family: arial, sans-serif;
 }
@@ -168,7 +170,7 @@ main .inline-list li {
 
 footer {
   background-color: #F2F2F2;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
