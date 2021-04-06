@@ -191,6 +191,11 @@ footer a, footer p {
   font-size: .8em;
 }
 
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
 footer li {
   display: inline-block;
 }
