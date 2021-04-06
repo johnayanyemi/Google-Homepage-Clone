@@ -160,7 +160,7 @@ main .input-btns a:hover {
 
 main .inline-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 3em;
