@@ -98,6 +98,7 @@ main .google-logo {
 }
 
 main .google-logo img {
+  height: 100px;
   width: 50%;
 }
 
@@ -172,6 +173,7 @@ main .inline-list li {
 footer {
   background-color: #F2F2F2;
   position: absolute;
+  height: auto;
   bottom: 0;
   right: 0;
   left: 0;
@@ -194,6 +196,7 @@ footer a, footer p {
 footer ul {
   display: flex;
   justify-content: center;
+  
 }
 
 footer li {
